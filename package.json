@@ -1,0 +1,27 @@
+{
+  "name": "stageone",
+  "version": "1.0.0",
+  "description": "a GET APi endpoint accepting two parameters",
+  "main": "server.ts",
+  "scripts": {
+    "test": "test",
+    "dev": "set NODE_ENV=development  && nodemon dist/server.js",
+    "prod": "set NODE_ENV=production  && nodemon dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "taskOne"
+  },
+  "author": "Hope Murithi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2"
+  }
+}
