@@ -14,9 +14,9 @@ process.on("uncaughtException", (error:any) => {
 });
 
 const server = app.listen(PORT, () => {
-//   console.clear();
+  console.clear();
   console.log(
-    `The server is listening on http://localhost/${PORT} on ${process.env.NODE_ENV}mode`
+    `The server is listening on http://localhost:${PORT} on ${process.env.NODE_ENV}mode`
   );
 });
 
