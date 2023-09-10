@@ -37,6 +37,5 @@ msbuild.log
 msbuild.err
 msbuild.wrn
 *.angular
-[Dd]ist/
 TestResults
 ynk-natc-jqo
