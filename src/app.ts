@@ -10,11 +10,11 @@ app.use(express.urlencoded({ extended: true }));
 /**
  * stageOne base url
  */
-const stageOneURL = "/task/v1";
+
 
 
 
 /**
  * mount routes
  */
-app.use(stageOneURL,user);
+app.use("/",user);

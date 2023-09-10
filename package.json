@@ -4,9 +4,8 @@
   "description": "a GET APi endpoint accepting two parameters",
   "main": "server.ts",
   "scripts": {
-    "test": "test",
     "dev": "set NODE_ENV=development  && nodemon dist/server.js",
-    "prod": "set NODE_ENV=production  && node dist/server.js"
+    "prod": "set NODE_ENV=production  && nodemon dist/server.js"
   },
   "repository": {
     "type": "git",

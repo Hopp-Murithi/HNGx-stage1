@@ -3,7 +3,7 @@ import { info } from "../controllers/Info";
 
 const user = Router();
 
-const baseURL = "/stageone/";
+const baseURL = "/api";
 
 /**
  * Get user info route
